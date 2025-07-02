@@ -59,3 +59,14 @@ body{
     font-weight: 400;
     opacity: 0.5;
 }
+
+/* mobile design */
+@media (max-width: 375px) {
+    .container{
+        padding-inline: 27.5px;
+    }
+    .card{
+        width: 100%;
+        
+    }
+}
